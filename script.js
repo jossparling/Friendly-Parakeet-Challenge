@@ -62,8 +62,7 @@ function generatePassword() {
    }
    
    // Generate random password 
-   //selectedCriteria = selectedCriteria.concat(arraytoadd)
-
+  
     for (let i = 0; i <= characterLength; i++) {
         randomCriteria = (selectedCriteria[Math.floor(Math.random() * selectedCriteria.length)]);
         randomPassword.push(randomCriteria);
